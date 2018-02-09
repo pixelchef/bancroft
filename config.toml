@@ -11,8 +11,8 @@ googleAnalytics = ""
 	post = "/:slug"
 
 [params]
-	name = "Your name"
-	description = "Describe your website"
+	name = "Bancroft"
+	description = "A show about a bird and a pineapple"
 	copyright = "© Bancroft"
 
 	# Custom assets can be linked with their paths relative to static/
