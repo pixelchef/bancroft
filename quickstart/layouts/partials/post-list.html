@@ -1,0 +1,17 @@
+<main>
+    <div id="home">
+        <ul class="posts">
+        {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
+        {{ range $paginator.Pages }}
+            <li itemscope itemtype="//schema.org/BlogPosting">
+                <a href="{{ .Permalink }}" itemprop="url" style="background-image: src('{{ .Params.Poster | urlize }}');">
+                    <div class="p-wrap">
+                        <h3 itemprop="name headline">{{ .Title }}</h3></br>
+                        <span class="episode" >Season {{ .Params.Season }} - Episode {{ .Params.Episode }}</span>
+                    </div>
+                </a>
+            </li>
+        {{ end }}
+        </ul>
+    </div>
+</main>
