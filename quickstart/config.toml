@@ -8,7 +8,7 @@ googleAnalytics = ""
 
 
 [permalinks]
-	post = "/:year/:month/:day/:slug"
+	post = "/:slug"
 
 [params]
 	name = "Your name"

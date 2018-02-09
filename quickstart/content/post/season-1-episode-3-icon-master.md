@@ -17,5 +17,4 @@ Derp and Scoot head to an abandond military base to find remenents of a uniform 
 
 
 <video src="https://s3.us-east-2.amazonaws.com/bancroftshow/season-1/episode-1/crypto-visionary.mp4" controls poster="https://s3.us-east-2.amazonaws.com/bancroftshow/season-1/episode-1/poster.jpg">
-<a href="https://s3.us-east-2.amazonaws.com/bancroftshow/season-1/episode-1/crypto-visionary.mp4">Download Episode</a>
 </video>

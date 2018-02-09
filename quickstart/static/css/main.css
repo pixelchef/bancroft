@@ -246,9 +246,10 @@ html {
 
 body {
   font: 1.25em "Open Sans", sans-serif;
-  color: black;
+  color: white;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  background: black;
 }
 
 @media (max-width:942px) {
@@ -303,7 +304,7 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin: 3.5em 0 .5em;
-  color: #999
+  color: #fff;
 }
 
 h5 {
@@ -386,16 +387,16 @@ header {
   display: inline-block;
   margin: 0;
   padding: 0;
-  font-weight: 400
+  font-weight: 700;
 }
 
 .h-wrap h1.title a {
-  color: #000;
+  color: white;
   text-decoration: none
 }
 
 .h-wrap h1.title a:hover {
-  color: #000;
+  color: white;
 }
 
 .h-wrap .close .lines {
@@ -578,11 +579,14 @@ footer small {
 
 .posts li .p-wrap {
   padding: 4rem 2em;
-  margin: .5rem;
-  border-radius: 6px;
-  background: #2196F3;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -2px 0;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: #444;
   transition: all .15s ease-in;
-  box-shadow: 0 15px 15px rgba(0, 0, 0, .15);
 }
 
 .posts li .p-wrap h3 {
@@ -598,18 +602,29 @@ footer small {
   color: rgba(255, 255, 255, .75);
 }
 
-.posts li .p-wrap:active {
-  background: #2167f3;
+.posts li .p-wrap:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: 2;
 }
 
 .posts li .p-wrap:hover {
-  background: #2167f3;
-  padding-left: 2.5em
+  background-color: #222;
 }
+
+.posts li .p-wrap:active {
+  background-color: #2167f3;
+}
+
 
 .posts li .p-wrap:hover::after {
   content: '\2192';
-  margin-left: .5em
+  margin-left: 1em;
+  background: transparent;
 }
 
 @media (max-width:942px) {
