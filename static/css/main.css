@@ -578,7 +578,7 @@ footer small {
 }
 
 .posts li .p-wrap {
-  padding: 4rem 2em;
+  padding: 5rem 2em;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -636,7 +636,6 @@ footer small {
 
 @media (max-width:942px) {
   .posts li .p-wrap {
-    padding: 2em
   }
 }
 
