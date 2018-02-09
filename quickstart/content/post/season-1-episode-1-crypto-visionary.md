@@ -3,7 +3,7 @@ author: "Bancroft"
 date: 2014-09-28
 season: "1"
 episode: "1"
-poster: https://s3.us-east-2.amazonaws.com/bancroftshow/season-1/episode-1/poster.jpg
+poster: "https://s3.us-east-2.amazonaws.com/bancroftshow/season-1/episode-1/poster.jpg"
 linktitle: Crypto Visionary
 menu:
   main:
