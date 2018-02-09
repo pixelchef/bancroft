@@ -589,6 +589,10 @@ footer small {
   transition: all .15s ease-in;
 }
 
+.posts li .p-wrap:nth-child(odd) {
+  background-color: #333;
+}
+
 .posts li .p-wrap h3 {
   margin: 0;
 }
@@ -613,13 +617,12 @@ footer small {
 }
 
 .posts li .p-wrap:hover {
-  background-color: #222;
+  background-color: #111;
 }
 
 .posts li .p-wrap:active {
   background-color: #2167f3;
 }
-
 
 .posts li .p-wrap:hover::after {
   content: '\2192';
@@ -635,8 +638,7 @@ footer small {
 }
 
 @media (max-width:942px) {
-  .posts li .p-wrap {
-  }
+  .posts li .p-wrap {}
 }
 
 .articleBody {
