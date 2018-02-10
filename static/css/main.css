@@ -590,7 +590,7 @@ footer small {
 }
 
 .posts li .p-wrap h3 {
-  margin: 0;
+  margin: 0 0 -20px 0;
 }
 
 .posts li .p-wrap .episode {

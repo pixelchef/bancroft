@@ -16,5 +16,5 @@ episode: "3"
 Derp and Scoot head to an abandond military base to find remenents of a uniform Derp's dad wore in the Gulf War. 
 
 
-<video src="https://s3.us-east-2.amazonaws.com/bancroftshow/season-1/episode-1/crypto-visionary.mp4" controls poster="https://s3.us-east-2.amazonaws.com/bancroftshow/season-1/episode-1/poster.jpg">
+<video src="https://s3.us-east-2.amazonaws.com/bancroftshow/season-1/episode-1/crypto-visionary.mp4" controls controlsList="nodownload"  poster="https://s3.us-east-2.amazonaws.com/bancroftshow/season-1/episode-1/poster.jpg">
 </video>
