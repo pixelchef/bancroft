@@ -601,7 +601,7 @@ footer small {
 }
 
 .posts li .p-wrap:hover::after {
-  content: '\2192';
+  content: 'Watch Episode \2192';
   margin-left: 1em;
   background: transparent;
 }
