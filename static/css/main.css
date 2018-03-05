@@ -583,7 +583,8 @@ footer small {
   background-size: cover;
   margin: -2px 0;
   background-position: center;
-  transition: all 5s ease-in;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .posts li .p-wrap h1 {
