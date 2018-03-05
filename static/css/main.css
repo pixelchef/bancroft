@@ -783,49 +783,23 @@ footer small {
   color: #fff;
 }
 
-@media (max-width:942px) {
-  #prev,
-  #next {
-    padding: .8em 1em .7em
-  }
-}
-
 #prev {
   left: 0;
-}
-
-@media (max-width:942px) {
-  #prev {
-    float: left
-  }
+  float: left
 }
 
 #next {
   right: 0;
-  float: right
+  float: right;
+  text-align: right;
 }
 
-@media (max-width:942px) {
-  #next {
-    float: right;
-    text-align: right;
-  }
-}
 
 #prev:active,
 #next:active {
   border-color: #7b68ee
 }
 
-.nav-title {
-  display: none
-}
-
-@media (max-width:942px) {
-  .nav-title {
-    display: inline
-  }
-}
 
 .nav-title-prev {
   margin-left: .5em;
