@@ -570,17 +570,15 @@ footer small {
   text-transform: uppercase
 }
 
-.posts {}
-
 .posts li {
-  display: inline-block;
   width: 100%;
+  margin-bottom: 7px;
 }
 
 .posts li .p-wrap {
   padding: 4rem 2em;
   overflow: hidden;
-  background: #3F51B5;
+  background: #E91E63;
   background-repeat: no-repeat;
   background-size: cover;
   margin: -2px 0;
@@ -794,12 +792,10 @@ footer small {
   text-align: right;
 }
 
-
 #prev:active,
 #next:active {
   border-color: #7b68ee
 }
-
 
 .nav-title-prev {
   margin-left: .5em;
