@@ -265,7 +265,6 @@ body {
   }
 }
 
-
 h2 {
   font-size: 180%;
   font-style: italic;
@@ -566,7 +565,8 @@ footer small {
   background-repeat: no-repeat;
   background-size: cover;
   margin: -2px 0;
-  background-position: center;å
+  background-position: center;
+  å
 }
 
 .posts li .p-wrap h1 {
@@ -584,10 +584,8 @@ footer small {
 
 .posts li .p-wrap:after {
   content: '';
-  width: 100%;
-  height: 100%;
   top: 0;
-  left: 0;
+  float: right;
   background: black;
   z-index: 2;
 }
@@ -602,11 +600,8 @@ footer small {
 
 .posts li .p-wrap:hover::after {
   content: 'Watch Episode \2192';
-  margin-left: 1em;
   background: transparent;
 }
-
-
 
 .articleBody {
   color: grey;
