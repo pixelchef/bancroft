@@ -578,19 +578,18 @@ footer small {
 }
 
 .posts li .p-wrap {
-  padding: 5rem 2em;
+  padding: 4rem 2em;
   overflow: hidden;
+  background: #3F51B5;
   background-repeat: no-repeat;
   background-size: cover;
   margin: -2px 0;
   background-position: center;
-  background-blend-mode: multiply;
-  background-color: #444;
   transition: all .15s ease-in;
 }
 
-.posts li .p-wrap h3 {
-  margin: 0 0 -20px 0;
+.posts li .p-wrap h1 {
+  margin: 0 0 -10px 0;
 }
 
 .posts li .p-wrap .episode {
@@ -613,13 +612,12 @@ footer small {
 }
 
 .posts li .p-wrap:hover {
-  background-color: #222;
+  background-color: #354ee0;
 }
 
 .posts li .p-wrap:active {
-  background-color: #2167f3;
+  background-color: #354ee0;
 }
-
 
 .posts li .p-wrap:hover::after {
   content: '\2192';
@@ -635,8 +633,7 @@ footer small {
 }
 
 @media (max-width:942px) {
-  .posts li .p-wrap {
-  }
+  .posts li .p-wrap {}
 }
 
 .articleBody {
@@ -776,27 +773,25 @@ footer small {
 
 #prev,
 #next {
-  position: fixed;
   text-decoration: none;
-  background: #268bd2;
-  border: 1px solid #268bd2;
+  border: none;
   padding: 10px;
+  width: 50%;
   line-height: 1;
-  border-radius: 25px;
-  bottom: 40px;
+  border-radius: 0;
+  bottom: 0;
   color: #fff;
 }
 
 @media (max-width:942px) {
   #prev,
   #next {
-    position: static;
     padding: .8em 1em .7em
   }
 }
 
 #prev {
-  left: 40px
+  left: 0;
 }
 
 @media (max-width:942px) {
@@ -806,12 +801,14 @@ footer small {
 }
 
 #next {
-  right: 40px
+  right: 0;
+  float: right
 }
 
 @media (max-width:942px) {
   #next {
-    float: right
+    float: right;
+    text-align: right;
   }
 }
 
@@ -845,36 +842,6 @@ footer small {
   display: inline
 }
 
-#prev,
-#next {
-  position: fixed;
-  text-decoration: none;
-  background: #2196F3;
-  border: 1px solid #2196F3;
-  padding: 10px;
-  line-height: 1;
-  border-radius: 25px;
-  bottom: 40px;
-  color: #fff;
-}
-
-#prev {
-  left: 40px
-}
-
-#next {
-  right: 40px
-}
-
-#prev:active,
-#next:active {
-  border-color: #39f
-}
-
-.nav-title {
-  display: none
-}
-
 .nav-title-prev {
   margin-left: 10px;
   margin-right: 5px
@@ -888,32 +855,4 @@ footer small {
 #prev:hover .nav-title,
 #next:hover .nav-title {
   display: inline
-}
-
-.pagination {
-  overflow: hidden;
-  margin-top: 40px;
-  color: #ccc;
-  text-align: center;
-  border: 1px solid #eee
-}
-
-.pagination a,
-.pagination span {
-  box-sizing: border-box;
-  float: left;
-  width: 50%;
-  padding: 20px;
-  text-decoration: none
-}
-
-.pagination a:first-child,
-.pagination span:first-child {
-  text-decoration: none;
-  border-right: 1px solid #eee
-}
-
-.pagination a:hover {
-  text-decoration: none;
-  background-color: #f5f5f5
 }

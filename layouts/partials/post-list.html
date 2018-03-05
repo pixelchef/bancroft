@@ -5,8 +5,8 @@
         {{ range $paginator.Pages }}
             <li itemscope itemtype="//schema.org/BlogPosting">
                 <a href="{{ .Permalink }}" itemprop="url">
-                    <div class="p-wrap" style="background-image: url(https://s3.us-east-2.amazonaws.com/bancroftshow/season-1/episode-1/poster.jpg);">
-                        <h3 itemprop="name headline">{{ .Title }}</h3></br>
+                    <div class="p-wrap">
+                        <h1 itemprop="name headline">{{ .Title }}</h1></br>
                         <span class="episode" >Season {{ .Params.Season }} - Episode {{ .Params.Episode }}</span>
                     </div>
                 </a>

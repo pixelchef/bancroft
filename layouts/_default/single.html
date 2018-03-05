@@ -10,14 +10,14 @@
     <section class="single-wrap">
       <article class="single-content" itemscope itemtype="//schema.org/BlogPosting">
         <h1 class="page-title" itemprop="name headline">{{ .Title }}</h1>
+                  <time datetime="" itemprop="datePublished">
+                    {{ .Date.Format "2. January 2006" }}
+                  </time>
         <div itemprop="articleBody" class="articleBody">
           {{ .Content }}
+
         </div>
-        <small>
-          <time datetime="" itemprop="datePublished">
-            {{ .Date.Format "2. January 2006" }}
-          </time>
-        </small>
+
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- Banner Ad -->
         <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-7500481806227065" data-ad-slot="3083076497"></ins>

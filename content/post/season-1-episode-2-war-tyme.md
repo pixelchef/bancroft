@@ -1,6 +1,6 @@
 ---
 author: "Bancroft"
-date: 2014-09-28
+date: 2014-09-23
 linktitle: Episode 1 - War Tyme
 menu:
   main:
