@@ -265,23 +265,6 @@ body {
   }
 }
 
-h1,
-h2,
-h3,
-.h-wrap h1.title,
-.off-canvas .bio h1,
-h4,
-h5,
-h6,
-h5,
-h6 {
-  font-family: 'Open Sans', sans-serif
-}
-
-h1 {
-  font-size: 250%;
-  margin: .5em 0
-}
 
 h2 {
   font-size: 180%;
@@ -711,12 +694,6 @@ footer small {
 
 .single-wrap .share {
   margin: 3.5em auto
-}
-
-.single-wrap h1.page-title {
-  font-size: 150%;
-  line-height: 135%;
-  margin: 0 0 1em;
 }
 
 .single-wrap ul,
