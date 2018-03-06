@@ -562,8 +562,7 @@ footer small {
   padding: 4rem 2em;
   overflow: hidden;
   background: #222;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(90deg, #222222 10%, #222222);
   margin: .5rem 1rem;
   border-radius: .5rem;
   background-position: center;
@@ -594,12 +593,18 @@ footer small {
 
 .posts li .p-wrap:hover {
   background-color: #354ee0;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
   background: linear-gradient(45deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
+  background: linear-gradient(90deg, #222222 10%, #16e27b);
 }
 
 .posts li .p-wrap:active {
   background-color: #354ee0;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
   background: linear-gradient(45deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
+  background: linear-gradient(90deg, #222222 10%, #16e27b);
 }
 
 .posts li .p-wrap:hover::after {
