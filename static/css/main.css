@@ -247,6 +247,8 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.25rem;
+  background:black;
+  color: white;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -373,6 +375,7 @@ header {
 
 .h-wrap h1.title a {
   font-size: 5rem;
+  color: white;
   text-decoration: none;
 }
 
@@ -569,12 +572,8 @@ footer small {
 }
 
 .posts li .p-wrap .episode {
-  background: rgba(255, 255, 255, .15);
-  border-radius: 6px;
-  padding: 5px 10px;
-  margin-right: 1rem;
   font-size: 80%;
-  color: rgba(255, 255, 255, .75);
+  color: rgba(255, 255, 255, .5);
 }
 
 .posts li .p-wrap:after {
@@ -672,7 +671,10 @@ footer small {
     font-size: 150%
   }
 }
-
+.time {
+  opacity: .5;
+  font-size: 80%;
+}
 .single-wrap .page-date {
   display: inline-block;
   position: relative;
